@@ -35,8 +35,8 @@
         // Java: https://github.com/Azure-Samples/cognitive-services-android-customvision-sample/blob/master/app/src/main/java/demo/tensorflow/org/customvision_sample/MSCognitiveServicesClassifier.java
         private static TFGraph ConstructGraphToNormalizeImage (out TFOutput input, out TFOutput output, TFDataType destinationDataType = TFDataType.Float)
 		{
-			const int W = 227;
-			const int H = 227;
+			const int W = 224;
+			const int H = 224;
             const float Scale = 1;
 
             // Depending on your CustomVision.ai Domain - set appropriate Mean Values (RGB)
